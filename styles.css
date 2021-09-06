@@ -1,0 +1,32 @@
+* {
+box-sizing: border-box;
+}  
+
+Body {
+margin: 0;
+}
+
+img {
+	max-height: 500px;
+	max-width: 500px;
+}
+
+nav {
+	background-color: #4ED77B;
+}
+
+
+/*
+@media screen and (max-width: 1000px) {
+   
+	section {
+		width: 500px;
+	}
+	main section {
+		flex-wrap: wrap;
+	}
+	
+	main section article:nth-child(2) {
+		margin: 0;
+	}
+	}*/
