@@ -13,15 +13,19 @@ aside {
 	width: 35%;
 	
 }
-/*
+
 img {
-	max-height: 500px;
-	max-width: 500px;
+	height: 500px;
+	max-width: 100%;
 }
-*/
+
+.projects{
+	color:#ffffff;
+}
+
 
 nav {
-	background-color: #95CDED;
+	
 	color: #ffffff;
 	max-width:; 100%;
 	display: flex;
@@ -41,6 +45,13 @@ nav a {
 	border-radius: 5px;
 	padding: 3px;
 	
+}
+
+button{
+	background-color: #95CDED;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	color: #211CF8;
 }
 
 .second-column {
@@ -64,6 +75,7 @@ nav a {
 
 .narrow-nav {
 	display: none;
+	
 
 }
 @media screen and (max-width: 900px) {
@@ -74,7 +86,9 @@ nav a {
 	  }
 
 	  .narrow-nav {
-	    display: block;
+	    
+		display: flex;
+		justify-content: flex-end;
 		
 	  }
 	}
