@@ -10,14 +10,18 @@ display: flex;
 }
 
 aside {
-	width: 35%;
+	width: 30%;
 	margin: 0;
 }
 
 aside img  {
 	width: 50%;
+	opacity: 60%;
+	 
 }
-
+aside img:hover {
+	opacity: 100%;
+}
 
 
 .projects{
@@ -58,15 +62,16 @@ button{
 .second-column {
 	background color: #95CDED;
 	color: #ffffff;
-	max-width: 65%;
+	max-width: 100%;
 		
 	
 }
 
 
 
-.portfolio {
-	background-color: #95CDED;
+header {
+	display: flex;
+	justify-content: flex-start;
 	color: #ffffff;
 }
 
