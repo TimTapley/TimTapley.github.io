@@ -11,13 +11,14 @@ display: flex;
 
 aside {
 	width: 35%;
-	
+	margin: 0;
 }
 
-img {
-	height: 500px;
-	max-width: 100%;
+aside img  {
+	width: 50%;
 }
+
+
 
 .projects{
 	color:#ffffff;
@@ -80,15 +81,22 @@ button{
 }
 @media screen and (max-width: 900px) {
    
-	@media screen and (max-width: 900px) {
 	  .wide-nav {
 	    display: none;
 	  }
 
 	  .narrow-nav {
-	    
 		display: flex;
 		justify-content: flex-end;
+		padding: 5px;
 		
 	  }
-	}
+	  
+	  aside img  {
+	  	width: 100%;
+	  }
+	  
+	 
+}
+	  
+	
