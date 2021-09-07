@@ -23,11 +23,9 @@ aside img:hover {
 	opacity: 100%;
 }
 
-
 .projects{
 	color:#ffffff;
 }
-
 
 nav {
 	
@@ -35,9 +33,7 @@ nav {
 	max-width:; 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
-	
-			
+	padding: 10px;		
 }
 
 a {
@@ -48,8 +44,7 @@ a {
 nav a {
 	border: 2px solid #ffffff;
 	border-radius: 5px;
-	padding: 3px;
-	
+	padding: 3px;	
 }
 
 button{
@@ -62,12 +57,8 @@ button{
 .second-column {
 	background color: #95CDED;
 	color: #ffffff;
-	max-width: 100%;
-		
-	
+	max-width: 100%;	
 }
-
-
 
 header {
 	display: flex;
@@ -75,15 +66,11 @@ header {
 	color: #ffffff;
 }
 
-
-
-
-
 .narrow-nav {
 	display: none;
-	
 
 }
+
 @media screen and (max-width: 900px) {
    
 	  .wide-nav {
@@ -99,9 +86,7 @@ header {
 	  
 	  aside img  {
 	  	width: 100%;
-	  }
-	  
-	 
+	  } 
 }
 	  
 	
