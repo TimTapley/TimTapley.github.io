@@ -40,7 +40,6 @@ article {
 }
 
 nav {
-	
 	color: #ffffff;
 	max-width: 100%;
 	display: flex;
@@ -78,13 +77,53 @@ header {
 	color: #ffffff;
 }
 
+main {
+	background-color:#E7F3FF;
+	color: #193189;
+	margin: 60px auto;
+}
+
+main h3 {
+	margin-left: 10px;
+}
+
+main p {
+	margin-left: 15px;
+}
+
+.journey {
+	width: 100%;
+	display: flex;
+}
+
+.journey p {
+	margin-left: 35px;
+}
+
+.personal {
+	width: 100%;
+	display: flex;
+	
+}
+
+.future {
+	width: 100%;
+	display: flex;
+	
+}
+
+.future p {
+	margin-left: 50px;
+}
+
 .narrow-nav {
 	display: none;
-
 }
 
 footer {
 	width: 100%;
+	display:flex;
+	justify-content: space-around;
 }
 
 @media screen and (max-width: 900px) {
@@ -104,5 +143,3 @@ footer {
 	  	width: 80%;
 	  } 
 }
-	  
-	
