@@ -7,32 +7,45 @@ margin: 0;
 background-color: #95CDED;
 color: #ffffff;
 display: flex;
+flex-wrap: wrap;
 }
 
 aside {
-	width: 35%;
-	
+	width: 30%;
+	margin: 0;
 }
 
-img {
-	height: 500px;
-	max-width: 100%;
+aside img  {
+	width: 50%;
+	opacity: 60%;
+	 
+}
+aside img:hover {
+	opacity: 100%;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+}
+
+.wide-aside {
+	display: flex;
+	justify-content: center;
 }
 
 .projects{
 	color:#ffffff;
+	text-align: center;
 }
-
 
 nav {
 	
 	color: #ffffff;
-	max-width:; 100%;
+	max-width: 100%;
 	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-	
-			
+	justify-content: space-around;
+	padding: 10px;		
 }
 
 a {
@@ -43,8 +56,7 @@ a {
 nav a {
 	border: 2px solid #ffffff;
 	border-radius: 5px;
-	padding: 3px;
-	
+	padding: 3px;	
 }
 
 button{
@@ -57,38 +69,40 @@ button{
 .second-column {
 	background color: #95CDED;
 	color: #ffffff;
-	max-width: 65%;
-		
-	
+	width: 70%;	
 }
 
-
-
-.portfolio {
-	background-color: #95CDED;
+header {
+	display: flex;
+	justify-content: flex-start;
 	color: #ffffff;
 }
 
-
-
-
-
 .narrow-nav {
 	display: none;
-	
 
 }
+
+footer {
+	width: 100%;
+}
+
 @media screen and (max-width: 900px) {
    
-	@media screen and (max-width: 900px) {
 	  .wide-nav {
 	    display: none;
 	  }
 
 	  .narrow-nav {
-	    
 		display: flex;
 		justify-content: flex-end;
+		padding: 5px;
 		
 	  }
-	}
+	  
+	  aside img  {
+	  	width: 80%;
+	  } 
+}
+	  
+	
