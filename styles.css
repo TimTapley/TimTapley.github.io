@@ -40,7 +40,6 @@ article {
 }
 
 nav {
-	
 	color: #ffffff;
 	max-width: 100%;
 	display: flex;
@@ -79,28 +78,43 @@ header {
 }
 
 main {
-	background-color:#CDDEF3;
-	color: #000000;
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 100%;
+	background-color:#E7F3FF;
+	color: #193189;
 	margin: 60px auto;
 }
 
-.about-me {
-	background-color: #C8E2FB;
-	display: flex;
-	justify-content:space-around s;
+main h3 {
+	margin-left: 10px;
 }
 
-.about-title {
-	width: 30%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+main p {
+	margin-left: 15px;
 }
 
+.journey {
+	width: 100%;
+	display: flex;
+}
 
+.journey p {
+	margin-left: 35px;
+}
+
+.personal {
+	width: 100%;
+	display: flex;
+	
+}
+
+.future {
+	width: 100%;
+	display: flex;
+	
+}
+
+.future p {
+	margin-left: 50px;
+}
 
 .narrow-nav {
 	display: none;
