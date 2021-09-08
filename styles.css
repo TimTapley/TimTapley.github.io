@@ -81,6 +81,7 @@ main {
 	background-color:#E7F3FF;
 	color: #193189;
 	margin: 60px auto;
+	margin-right: 5%;
 }
 
 main h3 {
@@ -120,10 +121,16 @@ main p {
 	display: none;
 }
 
+
 footer {
 	width: 100%;
 	display:flex;
 	justify-content: space-around;
+	align-items: center;
+}
+
+.narrow-footer {
+	display: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -142,4 +149,14 @@ footer {
 	  aside img  {
 	  	width: 80%;
 	  } 
+	  
+	  .wide-footer {
+		  display: none;
+	  }
+	  
+	  .narrow-footer {
+		display: flex;
+		padding: 5px;
+		
+	  }
 }
