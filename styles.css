@@ -126,7 +126,6 @@ footer {
 	width: 100%;
 	display:flex;
 	justify-content: space-around;
-	align-items: center;
 }
 
 .contact-details {
@@ -140,6 +139,10 @@ footer {
 
 .email a {
 	padding: 0 5px;
+	background-color: #E7F3FF;
+	text-decoration: none;
+	color: #211CF8;
+	font-size: 18px;	
 }
 
 .social-media {
