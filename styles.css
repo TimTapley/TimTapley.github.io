@@ -129,6 +129,31 @@ footer {
 	align-items: center;
 }
 
+.contact-details {
+	max-width: 30%;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+}
+
+.email a {
+	padding: 0 5px;
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+}
+
+.social-media a {
+	padding: 10px;
+	font-size: 20px;
+	background-color: #E7F3FF;
+	margin: 0 5px;
+}
+
 .narrow-footer {
 	display: none;
 }
@@ -156,6 +181,7 @@ footer {
 	  
 	  .narrow-footer {
 		display: flex;
+		justify-content: flex-end;
 		padding: 5px;
 		
 	  }
