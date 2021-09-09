@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+}  
+
+body {
+    background-color: #95CDED;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+	width: 30%;
+	margin: 0;
+}
+
+aside img  {
+    width: 50%;
+	opacity: 60%; 
+}
+
+aside img:hover {
+	opacity: 100%;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+}
+
+.wide-aside {
+	display: flex;
+	justify-content: center;
+}
+
+.projects{
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;		
+}
+
+a {
+	text-decoration: none;
+	color: #211CF8;
+}
+
+nav a {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	padding: 3px;	
+}
+
+button{
+	background-color: #95CDED;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	color: #211CF8;
+}
+
+.second-column {
+	width: 70%;	
+}
+
+main {
+	background-color:#E7F3FF;
+	color: #193189;
+	margin: 60px auto;
+	margin-right: 5%;
+}
+
+main h3 {
+	margin-left: 10px;
+}
+
+main p {
+	margin-left: 15px;
+}
+
+.journey {
+	display: flex;
+}
+
+.journey p {
+	margin-left: 40px;
+}
+
+.personal {
+	width: 100%;
+	display: flex;
+}
+
+.future {
+	width: 100%;
+	display: flex;
+}
+
+.future p {
+	margin-left: 50px;
+}
+
+.narrow-nav {
+	display: none;
+}
+
+footer {
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+}
+
+.contact-details {
+	max-width: 30%;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+}
+
+.email a {
+	padding: 0 5px;
+	background-color: #E7F3FF;
+	text-decoration: none;
+	color: #211CF8;
+	font-size: 18px;	
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+}
+
+.social-media a {
+	padding: 10px;
+	font-size: 20px;
+	background-color: #E7F3FF;
+	margin: 0 5px;
+}
+
+.narrow-footer {
+	display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+   
+	  .wide-nav {
+	      display: none;
+	  }
+
+	  .narrow-nav {
+		 display: flex;
+		 justify-content: flex-end;
+		 padding: 5px;
+		
+	  }
+	  
+	  aside img  {
+	  	 width: 80%;
+	  } 
+	  
+	  .wide-footer {
+		  display: none;
+	  }
+	  
+	  .narrow-footer {
+		  display: flex;
+		  justify-content: flex-end;
+		  align-items: center;
+		  padding: 5px;
+		
+	  }
+	  
+	  .narrow-footer a {
+	  	  text-decoration: none;
+	  	  color: #211CF8;
+		  padding: 0 5px;
+		  background-color: #E7F3FF
+	  }
+}
