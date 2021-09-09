@@ -81,6 +81,7 @@ main {
 	background-color:#E7F3FF;
 	color: #193189;
 	margin: 60px auto;
+	margin-right: 5%;
 }
 
 main h3 {
@@ -120,10 +121,44 @@ main p {
 	display: none;
 }
 
+
 footer {
 	width: 100%;
 	display:flex;
 	justify-content: space-around;
+}
+
+.contact-details {
+	max-width: 30%;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+}
+
+.email a {
+	padding: 0 5px;
+	background-color: #E7F3FF;
+	text-decoration: none;
+	color: #211CF8;
+	font-size: 18px;	
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+}
+
+.social-media a {
+	padding: 10px;
+	font-size: 20px;
+	background-color: #E7F3FF;
+	margin: 0 5px;
+}
+
+.narrow-footer {
+	display: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -142,4 +177,15 @@ footer {
 	  aside img  {
 	  	width: 80%;
 	  } 
+	  
+	  .wide-footer {
+		  display: none;
+	  }
+	  
+	  .narrow-footer {
+		display: flex;
+		justify-content: flex-end;
+		padding: 5px;
+		
+	  }
 }
