@@ -12,11 +12,17 @@ body {
 aside {
 	width: 30%;
 	margin: 0;
+	
 }
 
 aside img  {
     width: 50%;
 	opacity: 60%; 
+}
+
+figcaption {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 aside img:hover {
@@ -40,7 +46,7 @@ article {
 nav {
 	display: flex;
 	justify-content: space-around;
-	padding: 10px;		
+	padding: 10px;	
 }
 
 a {
@@ -61,6 +67,7 @@ button{
 	color: #211CF8;
 }
 
+
 .second-column {
 	width: 70%;	
 }
@@ -70,7 +77,13 @@ main {
 	color: #193189;
 	margin: 60px auto;
 	margin-right: 5%;
+	overflow: scroll;
 }
+
+main h1 {
+	margin-left: 10px;
+}
+
 
 main h3 {
 	margin-left: 10px;
