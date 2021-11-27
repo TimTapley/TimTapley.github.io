@@ -19,7 +19,7 @@ body {
 }
 
 .container div {
-	margin-bottom:  5%;
+	margin-bottom:  10px;
 }
 
 .githubView {
@@ -108,7 +108,7 @@ nav {
 
 main {
 	background-color:#F6F9FC;
-	color: #193189;
+	color: #036DB0;
 	margin: 60px auto;
 	margin-top: 0;
 	margin-right: 5%;
@@ -153,7 +153,7 @@ main p {
 	display: none;
 }
 
-footer {
+.wide-footer {
 	width: 100%;
 	display:flex;
 	justify-content: space-around;
@@ -177,6 +177,20 @@ footer {
 	color: #193189;
 	border-radius: 5px;
 	font-size: 18px;	
+}
+
+.mobile {
+	display: flex;
+	align-items: center;
+}
+
+.mobile p {
+	padding: 0 5px;
+	background-color: #F6F9FC;
+	text-decoration: none;
+	color: #193189;
+	border-radius: 5px;
+	font-size: 18px;
 }
 
 .social-media {
@@ -208,20 +222,48 @@ footer {
 
 	.narrow-footer {
 		display: flex;
-		justify-content: center;
+		justify-content:flex-start;
 		align-items: center;
 		padding: 5px;
+		margin-left: 10%;
 	}
 
 	.narrow-footer a {
+		display:flex;
 		text-decoration: none;
 		color: #211CF8;
 		padding: 0 5px;
-		background-color: #E7F3FF
+		background-color: #E7F3FF;
+		border-radius: 5px;
+	}
+
+	.narrow-footer .mobile {
+		display:flex;
+		text-decoration: none;
+		color: #211CF8;
+		padding: 0 5px;
+		background-color: #E7F3FF;
+		border-radius: 5px;
 	}
 
 	.container div {
 		margin-bottom:  0%;
 	}
 }
+
+@media screen and (max-width: 750px) {
+
+	aside img  {
+		width: 50%;
+	}
+
+	.narrow-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+	}
+
+}
+
 
