@@ -81,21 +81,23 @@ nav {
 
 a {
 	text-decoration: none;
-	color: #193189;
+	color: #036DB0;
 }
 
 nav a {
 	border: 2px solid #F6F9FC;
 	border-radius: 5px;
 	padding: 3px;
-	color: #F6F9FC;
+	background-color: #F6F9FC;
+	color: #036DB0;
+	font-weight: bold;
 }
 
 button{
-	background-color: #95CDED;
+	background-color: #F6F9FC;
 	border: 2px solid #F6F9FC;
 	border-radius: 5px;
-	color: #193189;
+	color: #F6F9FC;
 }
 
 .second-column {
