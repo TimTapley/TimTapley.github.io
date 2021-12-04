@@ -3,7 +3,7 @@
 }  
 
 body {
-    background-color: #036DB0;
+	background-image: linear-gradient(to bottom right, #036DB0, #F6F9FC);
     color: #F6F9FC;
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +35,11 @@ body {
 	opacity: 100%;
 }
 
+.timImage:hover {
+	opacity: 100%;
+	transform: scale(1)
+}
+
 aside {
 	width: 30%;
 	margin: 0;
@@ -42,6 +47,10 @@ aside {
 
 aside img  {
     width: 50%;
+}
+
+aside img:hover {
+	transform: scale(2.5)
 }
 
 figcaption {
@@ -84,19 +93,12 @@ a {
 }
 
 nav a {
-	border: 2px solid #F6F9FC;
+	border: solid #036DB0 1px ;
 	border-radius: 5px;
 	padding: 3px;
 	background-color: #F6F9FC;
 	color: #036DB0;
 	font-weight: bold;
-}
-
-button{
-	background-color: #F6F9FC;
-	border: 2px solid #F6F9FC;
-	border-radius: 5px;
-	color: #F6F9FC;
 }
 
 .second-column {
@@ -162,6 +164,10 @@ main p {
 	margin-bottom: 20px;
 }
 
+.wide-footer h3 {
+	color: #036DB0;
+}
+
 .contact-details {
 	max-width: 30%;
 }
@@ -177,6 +183,7 @@ main p {
 	text-decoration: none;
 	color: #036DB0;
 	border-radius: 5px;
+	border: solid #036DB0 1px;
 	font-size: 18px;	
 }
 
@@ -191,6 +198,7 @@ main p {
 	text-decoration: none;
 	color: #036DB0;
 	border-radius: 5px;
+	border: solid #036DB0 1px;
 	font-size: 18px;
 }
 
@@ -204,6 +212,7 @@ main p {
 	font-size: 20px;
 	color: #036DB0;
 	background-color: #F6F9FC;
+	border: solid #036DB0 1px;
 	border-radius: 5px;
 	margin: 0 5px;
 }
@@ -234,7 +243,8 @@ main p {
 		display:flex;
 		text-decoration: none;
 		color: #036DB0;
-		padding: 0 5px;
+		padding: 3px;
+		margin: 5px;
 		background-color: #E7F3FF;
 		border-radius: 5px;
 	}
