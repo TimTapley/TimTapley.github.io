@@ -26,6 +26,10 @@ body {
 	text-decoration: none;
 	color: #F6F9FC;
 }
+.liveView {
+	text-decoration: none;
+	color: #F6F9FC;
+}
 
 .timImage {
 	opacity: 100%;
@@ -38,16 +42,11 @@ aside {
 
 aside img  {
     width: 50%;
-	opacity: 80%;
 }
 
 figcaption {
 	text-decoration: none;
 	color: #F6F9FC;
-}
-
-aside img:hover {
-	opacity: 100%;
 }
 
 article {
