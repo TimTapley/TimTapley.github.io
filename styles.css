@@ -50,7 +50,7 @@ aside img  {
 }
 
 aside img:hover {
-	transform: scale(2.5)
+	transform: scale(2)
 }
 
 figcaption {
@@ -93,7 +93,7 @@ a {
 }
 
 nav a {
-	border: solid #036DB0 1px ;
+	border: solid #036DB0 1px;
 	border-radius: 5px;
 	padding: 3px;
 	background-color: #F6F9FC;
@@ -247,6 +247,7 @@ main p {
 		margin: 5px;
 		background-color: #F6F9FC;
 		border-radius: 5px;
+		border: solid #036DB0 1px ;
 	}
 
 	.narrow-footer .mobile {
@@ -256,6 +257,7 @@ main p {
 		padding: 0 5px;
 		background-color: #F6F9FC;
 		border-radius: 5px;
+		border: solid #036DB0 1px ;
 	}
 
 	.container div {
