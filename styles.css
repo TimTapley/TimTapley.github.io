@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
-}  
+	font-family: roboto;
+}
 
 body {
 	background-image: linear-gradient(to bottom right, #036DB0, #F6F9FC);
@@ -33,6 +34,7 @@ body {
 
 .timImage {
 	opacity: 100%;
+	border-radius: 5px;
 }
 
 .timImage:hover {
@@ -95,7 +97,7 @@ a {
 nav a {
 	border: solid #036DB0 1px;
 	border-radius: 5px;
-	padding: 3px;
+	padding: 10px;
 	background-color: #F6F9FC;
 	color: #036DB0;
 	font-weight: bold;
@@ -113,12 +115,12 @@ main {
 	background-color:#F6F9FC;
 	color: #036DB0;
 	margin: 60px auto;
-	margin-top: 0;
-	margin-right: 5%;
+	
 }
 
 main h1 {
 	margin-left: 10px;
+	padding-top: 10px;
 }
 
 main h3 {
@@ -135,7 +137,7 @@ main p {
 }
 
 .journey p {
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 .personal {
@@ -149,7 +151,7 @@ main p {
 }
 
 .future p {
-	margin-left: 50px;
+	margin-left: 60px;
 }
 
 .narrow-nav {
