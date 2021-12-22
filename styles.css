@@ -26,10 +26,13 @@ body {
 .githubView {
 	text-decoration: none;
 	color: #F6F9FC;
+	padding: 8px;
+	font-weight: bold;
 }
 .liveView {
 	text-decoration: none;
 	color: #F6F9FC;
+	font-weight: bold;
 }
 
 .timImage {
@@ -52,7 +55,9 @@ aside img  {
 }
 
 aside img:hover {
-	transform: scale(2)
+	transform: scale(2);
+	position: relative;
+	bottom: 35px;
 }
 
 figcaption {
@@ -115,7 +120,7 @@ main {
 	background-color:#F6F9FC;
 	color: #036DB0;
 	margin: 60px auto;
-	
+
 }
 
 main h1 {
