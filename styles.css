@@ -6,21 +6,23 @@
 body {
 	background-image: linear-gradient(to bottom right, #036DB0, #F6F9FC);
     color: #F6F9FC;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-#photo {
-	margin-top: 5%;
-	opacity: 100%;
+header {
+	display:flex;
+	justify-content: space-between;
+	margin: 10px 25px;
 }
 
-.container {
-	margin-top: 5%;
+.timImage {
+	margin: 0 20px;
+	width: 250px;
+	height: 250px;
+	border-radius: 5px;
 }
 
-.container div {
-	margin-bottom:  10px;
+.narrow-intro {
+	display: none;
 }
 
 .githubView {
@@ -29,36 +31,13 @@ body {
 	padding: 8px;
 	font-weight: bold;
 }
+
 .liveView {
 	text-decoration: none;
 	color: #F6F9FC;
 	font-weight: bold;
 }
 
-.timImage {
-	opacity: 100%;
-	border-radius: 5px;
-}
-
-.timImage:hover {
-	opacity: 100%;
-	transform: scale(1)
-}
-
-aside {
-	width: 30%;
-	margin: 0;
-}
-
-aside img  {
-    width: 50%;
-}
-
-aside img:hover {
-	transform: scale(2);
-	position: relative;
-	bottom: 35px;
-}
 
 figcaption {
 	text-decoration: none;
@@ -67,11 +46,16 @@ figcaption {
 
 article {
 	border: solid  #F6F9FC 2px;
-	margin: 10px  10%;
+	margin: 10px ;
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	flex-direction: column;
-	justify-content: center;
 	border-radius: 5px;
+}
+
+h2 {
+	justify-content:center;
 }
 
 article p {
@@ -79,16 +63,27 @@ article p {
 	color: #F6F9FC;
 }
 
-.wide-aside {
-	display: flex;
-	justify-content: center;
-}
-
-.projects{
+.projects {
 	text-align: center;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-nav {
+.recent-projects {
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 350px;
+	height:200px;
+	margin: 0px 10px;
+}
+
+.wide-nav {
 	display: flex;
 	justify-content: space-around;
 	padding: 10px;	
@@ -108,9 +103,6 @@ nav a {
 	font-weight: bold;
 }
 
-.second-column {
-	width: 70%;	
-}
 
 nav {
 	margin-top: 30px;
@@ -119,8 +111,8 @@ nav {
 main {
 	background-color:#F6F9FC;
 	color: #036DB0;
-	margin: 60px auto;
-
+	margin: 10px 80px;
+	padding: 10px;
 }
 
 main h1 {
@@ -135,28 +127,6 @@ main h3 {
 main p {
 	margin-left: 15px;
 	margin-right: 15px;
-}
-
-.journey {
-	display: flex;
-}
-
-.journey p {
-	margin-left: 50px;
-}
-
-.personal {
-	width: 100%;
-	display: flex;
-}
-
-.future {
-	width: 100%;
-	display: flex;
-}
-
-.future p {
-	margin-left: 60px;
 }
 
 .narrow-nav {
@@ -191,7 +161,8 @@ main p {
 	color: #036DB0;
 	border-radius: 5px;
 	border: solid #036DB0 1px;
-	font-size: 18px;	
+	font-size: 18px;
+	margin: 5px;
 }
 
 .mobile {
@@ -207,6 +178,7 @@ main p {
 	border-radius: 5px;
 	border: solid #036DB0 1px;
 	font-size: 18px;
+	margin: 5px;
 }
 
 .social-media {
@@ -221,18 +193,53 @@ main p {
 	background-color: #F6F9FC;
 	border: solid #036DB0 1px;
 	border-radius: 5px;
-	margin: 0 5px;
+	margin: 5px;
 }
 
 .narrow-footer {
 	display: none;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 800px) {
 
-	aside img  {
-		width: 80%;
+	.timImage {
+		margin: 0 20px;
+		width: 100px;
+		height: 100px;
+		display: none;
 	}
+
+	img {
+		width: 200px;
+		height:100px;
+		margin: 5px;
+	}
+
+	nav a {
+		padding: 5px;
+	}
+
+	.wide-intro {
+		display: none;
+	}
+
+	.narrow-intro {
+		display: flex;
+	}
+
+	main {
+		margin: 10px;
+		padding: 20px;
+	}
+
+	article a {
+		font-size: small;
+	}
+
+	article h3 {
+		font-size: small;
+	}
+
 
 	.wide-footer {
 		display: none;
@@ -240,10 +247,10 @@ main p {
 
 	.narrow-footer {
 		display: flex;
-		justify-content:flex-start;
+		flex-direction: column;
+		justify-content:center;
 		align-items: center;
 		padding: 5px;
-		margin-left: 10%;
 	}
 
 	.narrow-footer a {
@@ -257,34 +264,18 @@ main p {
 		border: solid #036DB0 1px ;
 	}
 
-	.narrow-footer .mobile {
-		display:flex;
-		text-decoration: none;
-		color: #036DB0;
-		padding: 0 5px;
+	.narrow-footer .mobile p {
+		padding:  5px;
 		background-color: #F6F9FC;
+		text-decoration: none;
+		margin: 5px;
+		color: #036DB0;
 		border-radius: 5px;
-		border: solid #036DB0 1px ;
-	}
-
-	.container div {
-		margin-bottom:  0%;
-	}
-}
-
-@media screen and (max-width: 750px) {
-
-	aside img  {
-		width: 50%;
-	}
-
-	.narrow-footer {
-		display: flex;
-		flex-direction: column;
-		justify-content:flex-start;
-		align-items: center;
+		border: solid #036DB0 1px;
+		font-size: 18px;
 	}
 
 }
+
 
 
